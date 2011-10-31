@@ -12,7 +12,7 @@ void testApp::setup(){
     ofEnableAlphaBlending();
     ofSetFrameRate(60);
 
-	hearFinder.setup("haarcascade_frontalface_default.xml");
+	hearFinder.setup("cascade_oppai.xml");
 #ifdef _USE_LIVE_VIDEO
     //カメラから映像を取り込んで表示
     vidGrabber.setVerbose(true);
